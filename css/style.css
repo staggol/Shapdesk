@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+
+body {
+	background-color: white;
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+	list-style: none;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	font-family: "Open Sans";
+	letter-spacing: 2px;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+header {
+	background: url(../images/san_2209.jpg) no-repeat 50% 30% fixed;
+	color: #ffffff;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+.navbar {
+	padding: 20px 0;
+}
+
+.navbar-brand {
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.navbar .navbar-brand:hover {
+	color: white;
+}
+
+#headerwrap {
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+#headerwrap h1, #headerwrap p {
+	text-shadow: 2px 2px 2px black;
+}
+
+form p {
+	font-size: 12px;
+	font-family: "Open Sans";
+	color: yellow;
+}
+.text, .sub {
+	box-shadow: 0;
+	font-size: 20px;
+	font-family: "Open Sans";
+	box-sizing: border-box;
+}
+
+.text {
+	border: 1px solid #e4e4e4;
+	color: #c2c1c1;
+	min-width: 300px;
+	min-height: 53px;
+	padding-bottom: 2px;
+	border-radius: 1px;
+	padding-left: 10px;
+	transition: 0.5s;
+}
+
+.text:hover {
+	border-color: #a8a8a8;
+}
+
+.text:focus {
+	outline: none;
+	border-color: #1179e3;
+}
+
+.sub {
+	background: #1179e3;
+	color: #fff;
+	min-width: 120px;
+	height: 53px;
+	border: 0;
+	border-radius: 1px;
+	transition: 0.5s;
+}
+
+.sub:hover {
+	background-color: #2f85dd;
+}
+
+.images {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.images img {
+	height: 15em;
+	width: 15em;
+	/*border: 2px solid gray; */
+	margin: 5% auto;
+}
+
+img {
+	transition: 0.5s;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+img:hover {
+	transform: scale(1.1);
+	/*box-shadow: 1px 1px 30px 0px #a3faff; */
+}
+
+
+.footer {
+	border-top: 3.5px solid gray;
+	min-height: 1em;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.footer a {
+	color: white;
+	font-size: 20px;
+}
+
+.footer a:hover, .footer a:focus {
+	color: #fffccc;
+}
+
+
+@media (max-width: 680px) {
+
+	#headerwrap {
+		min-height: 300px;
+	}
+
+	#headerwrap h1 {
+		font-size: 25px;
+		margin-top: 20px;
+	}
+
+	.text {
+		min-width: 15%;
+		font-size: 12px;
+	}
+
+	.sub {
+		min-width: 10%;
+		font-size: 12px;
+	}
+
+	form p {
+		font-size: 10px;
+	}
+
+	.images img {
+	height: 20em;
+	width: 20em;
+	margin: 5% auto;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 12px;
+	}
+
+
+}
+
+@media (max-width: 1280px) {
+
+	.images img {
+	height: 15em;
+	width: 15em;
+	margin: 5% auto;
+	}
+
+}
